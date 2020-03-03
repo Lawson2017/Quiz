@@ -1,13 +1,17 @@
 //add a header just for style
-var header = document.createElement('div')
+var header = document.createElement('nav')
 var DOM = document.getElementById('addHere')
-header.className = 'header'
+header.className = 'navbar navbar-light bg-light'
 DOM.prepend(header)
 
 //add a banner to the header
-var bannerText = document.createTextNode('Owls-101')
+var bannerImg = document.createElement('img')
+bannerImg.src = "favicon.ico"
+bannerImg.className = 'bannerImg'
+var bannerText = document.createTextNode('Owls 101')
+bannerText.className = 'bannerText'
+header.appendChild(bannerImg)
 header.appendChild(bannerText)
-
 
 
 
