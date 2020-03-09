@@ -11,10 +11,13 @@ bannerImg.className = 'bannerImg'
 var bannerText = document.createTextNode('Owls 101')
 bannerText.className = 'bannerText'
 header.appendChild(bannerImg)
-header.appendChild(bannerText)
+// header.appendChild(bannerText)
 
 
-
+toggleDisplayBio = () => {
+    this.setState({ displayBio: !this.state.displayBio });
+    // this.state.displayBio = !this.state.displayBio; do not modify state directly
+}
 
 
 //an array of objects, each containing a question and answer

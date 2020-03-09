@@ -1,8 +1,9 @@
 
 body {
-	background-image: url(../img/owlBG.jpg);
+	/* background-image: url(../img/owlBG.jpg); */
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-color: black;
 }
 
 button {
@@ -74,4 +75,15 @@ img {
 
 #addHere {
 	font-family: 'Trade Winds', cursive;
+}
+.jumbotron {
+	margin: auto;
+	text-align: center;
+	color: black;
+	width: 50%;
+	margin-top: 1%;
+}
+.quiz1 {
+	display: inline-block;
+	position: static;
 }

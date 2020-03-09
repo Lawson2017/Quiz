@@ -20,9 +20,17 @@
 		<link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
 
 	</head>
+
+	<div class="jumbotron">
+		<h1 class="display-4">Owls 101</h1>
+		<p class="lead">Test your knowledge of North American Owls.</p>
+		<hr class="my-4">
+		<p>Answer 2 out of 3 correctly to advance levels.</p>
+		<a class="btn btn-primary btn-lg" href="#" role="button">Begin Quiz</a>
+	  </div>
 	<body id= "addHere">
 		
-		<img src="img/owl.jpg">
+		<!-- <img src="img/owl.jpg"> -->
 		<!-- question 1 -->
 		<div id = 'question0'></div>
 		<input id = "answer0">
@@ -35,6 +43,7 @@
 		<input id = "answer2">
 
 		<button class = "btn-danger"onclick = "checkAnswers()">Submit</button>
+		<img class = "quiz1" src = "img/owlBG.jpg">
 
 		<!-- users score -->
 		<h1 class="correct">Correct: <span id = "correct"></span></h1>
