@@ -13,7 +13,7 @@ button {
 	margin-bottom: 2%;
 }
 
-div {
+.col-md {
 	padding: 5px;
 	border-radius: 10px;
 	background-color: gray;
@@ -27,10 +27,11 @@ div {
 
 input {
 	margin-left: 5%;
+	margin-bottom: 2%
 }
 
 img {
-	margin: 2% 0 1% 5%;
+	margin: 1% 0 1% 5%;
 	width: 480px;
 	height: 340px;
 	border: solid 5px black;
@@ -86,7 +87,16 @@ img {
 .quiz1 {
 	display: inline-block;
 	position: static;
+	padding: 1%;
+	border-radius: 15px;
+	margin-top: 1%;
 }
 .intro {
 	margin: auto;
+}
+.questions {
+	padding: 1%;
+	border-radius: 15px;
+	margin-top: 1%;
+	background-color: bisque;
 }
