@@ -20,36 +20,35 @@
 		<link href="https://fonts.googleapis.com/css?family=Trade+Winds&display=swap" rel="stylesheet">
 
 	</head>
+	<div class = 'container-fluid'>
+				<div class="jumbotron">
+					<h1 class="display-4">Owls 101</h1>
+					<p class="lead">Test your knowledge of North American Owls.</p>
+					<hr class="my-4">
+					<p>Answer 2 out of 3 correctly to advance levels.</p>
+					<a class="btn btn-primary btn-lg" href="#" role="button">Begin Quiz</a>
+				</div>
+		<body id= "addHere">
+			<!-- <img src="img/owl.jpg"> -->
+			<!-- question 1 -->
+			<div id = 'question0'></div>
+			<input id = "answer0">
+			<!-- quesiton 2 -->
+			<div id= "question1"></div>
+			<input id = "answer1">
+			
+			<!-- question 3 -->
+			<div id= "question2"></div>
+			<input id = "answer2">
 
-	<div class="jumbotron">
-		<h1 class="display-4">Owls 101</h1>
-		<p class="lead">Test your knowledge of North American Owls.</p>
-		<hr class="my-4">
-		<p>Answer 2 out of 3 correctly to advance levels.</p>
-		<a class="btn btn-primary btn-lg" href="#" role="button">Begin Quiz</a>
-	  </div>
-	<body id= "addHere">
-		
-		<!-- <img src="img/owl.jpg"> -->
-		<!-- question 1 -->
-		<div id = 'question0'></div>
-		<input id = "answer0">
-		<!-- quesiton 2 -->
-		<div id= "question1"></div>
-		<input id = "answer1">
-		
-		<!-- question 3 -->
-		<div id= "question2"></div>
-		<input id = "answer2">
+			<button class = "btn-danger"onclick = "checkAnswers()">Submit</button>
+			<img class = "quiz1" src = "img/owlBG.jpg">
 
-		<button class = "btn-danger"onclick = "checkAnswers()">Submit</button>
-		<img class = "quiz1" src = "img/owlBG.jpg">
-
-		<!-- users score -->
-		<h1 class="correct">Correct: <span id = "correct"></span></h1>
-		<h1 class="incorrect">Incorrect: <span id="incorrect"></span></h1>
-
-
+			<!-- users score -->
+			<h1 class="correct">Correct: <span id = "correct"></span></h1>
+			<h1 class="incorrect">Incorrect: <span id="incorrect"></span></h1>
+		</div>
+		</div>
 		<!-- This gives access to the jquery library -->
 		<script
 		src="https://code.jquery.com/jquery-3.2.1.js"

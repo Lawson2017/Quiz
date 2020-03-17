@@ -87,3 +87,6 @@ img {
 	display: inline-block;
 	position: static;
 }
+.intro {
+	margin: auto;
+}
